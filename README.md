@@ -5,7 +5,9 @@ Snowflake DBT Apache Airflow Python Kafka Docker Power BI
 This project demonstrates an end-to-end real-time data pipeline using the Modern Data Stack.
 We capture live stock market data from an external API, stream it in real time, orchestrate transformations, and deliver analytics-ready insights — all in one unified project.
 
-Architecture (1)
+Architecture:
+<img width="5889" height="3500" alt="image" src="https://github.com/user-attachments/assets/148fb75f-4529-4933-b57c-cc86556fbe6d" />
+
 
 ⚡ Tech Stack
 Snowflake → Cloud Data Warehouse
@@ -22,6 +24,8 @@ Orchestrated ETL workflow using Airflow
 Transformations using DBT inside Snowflake
 Scalable cloud warehouse powered by Snowflake
 Analytics-ready Power BI dashboards
+
+
 📂 Repository Structure
 real-time-stocks-pipeline/
 ├── producer/                     # Kafka producer (Finnhub API)
@@ -43,6 +47,8 @@ real-time-stocks-pipeline/
 ├── docker-compose.yml            # Kafka, Zookeeper, MinIO, Airflow, Postgres
 ├── requirements.txt
 └── README.md                     # Documentation
+
+
 🚀 Getting Started
 Clone this repo and set up environment
 Start Kafka + Airflow services via Docker
@@ -94,3 +100,5 @@ Snowflake tables (Bronze → Silver → Gold)
 Transformed analytics models with DBT
 Orchestrated DAGs in Airflow
 Power BI dashboard with live insights
+
+Author :Mohd Akram
